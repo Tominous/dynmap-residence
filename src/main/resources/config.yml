@@ -14,10 +14,10 @@ layer:
   layerprio: 1
   # (optional) set minimum zoom level before layer is visible (0 = defalt, always visible)
   minzoom: 0
-  boost: false
+  boost: true
 
 # Set true to show 3D volumes for zones  
-use3dregions: false
+use3dregions: true
 
 # How deep to nest residence subzones
 resdepth: 2
@@ -33,8 +33,8 @@ regionstyle:
   fillOpacity: 0.35
   forRentStrokeColor: "#007F00"
   forSaleStrokeColor: "#007F7F"  
-  boost: false
-  
+  boost: true
+
 # Optional setting to limit which regions to show, by name - if commented out, all regions are shown
 # To show all regions on a given world, add 'world:<worldname>' to the list
 visibleregions: [ ]
@@ -48,9 +48,9 @@ custstyle:
   customizedregion:
     strokeColor: "#00FF00"
     y: 78
-    boost: false
+    boost: true
   anotherregion.subzone:
     strokeColor: "#007F00"
-    boost: false
+    boost: true
   
 
